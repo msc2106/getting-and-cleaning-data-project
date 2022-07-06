@@ -3,7 +3,7 @@
 ## Description
 This repository includes an R script to clean selected variables from the Human Activity Recognition Using Smartphones Data Set.
 ## Data source
-The data is available from the ICU Machine Learning repository: (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+The data is available from the ICU Machine Learning repository: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The original researchers are Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
 1. Smartlab - Non-Linear Complex Systems Laboratory DITEN - Università  degli Studi di Genova, Genoa (I-16145), Italy. 
