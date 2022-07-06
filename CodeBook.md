@@ -17,15 +17,132 @@ The researchers describe their data collection procedure as follows:
 ### Main data set
 `subject`
 
-A number represented a unique id for each participant in the study.
+A factor represented a unique id for each participant in the study.
 
 `activity`
 
 A factor variable representing the activity for which the observation was made. Its levels are `walking`, `walking_upstairs`, `walking_downstairs`, `sitting`, `standing`, and `laying`.
 
-66 measurement variables
+`timebodyaccmeanx`
 
-The names of the other variables in the data set are composed of three or four elements. The first is the prefix `time` or `freq`, indicating whether the signal was collect on the time domain or frequency domain. The second part indicates the motion being measured. The third indicates whether the measure is `mean` or standard deviation (`std`). Some measurements are split between the x, y, and z axes, indicated with a suffix of `x`, `y`, or `z`.
+The mean of the body signal of the time domain accelerator measurement on the x axis.
+
+`timebodyaccmeany`
+
+The mean of the body signal of the time domain accelerator measurement on the y axis.
+
+`timebodyaccmeanz`
+
+The mean of the body signal of the time domain accelerator measurement on the z axis.
+
+`timebodyaccstdx`
+
+The standard deviation of the body signal of the time domain accelerator measurement on the x axis.
+
+`timebodyaccstdy`
+
+The standard deviation of the body signal of the time domain accelerator measurement on the y axis.
+
+`timebodyaccstdz`
+
+The standard deviation of the body signal of the time domain accelerator measurement on the z axis.
+
+`timegravityaccmeanx`
+
+The mean of the gravity signal of the time domain accelerator measurement on the x axis.
+
+`timegravityaccmeany`
+
+The mean of the gravity signal of the time domain accelerator measurement on the y axis.
+
+`timegravityaccmeanz`
+
+The mean of the gravity signal of the time domain accelerator measurement on the z axis.
+
+`timegravityaccstdx`
+
+The standard deviation of the gravity signal of the time domain accelerator measurement on the x axis.
+
+`timegravityaccstdy`
+
+The standard deviation of the gravity signal of the time domain accelerator measurement on the y axis.
+
+`timegravityaccstdz`
+
+The standard deviation of the gravity signal of the time domain accelerator measurement on the z axis.
+
+`timebodyaccjerkmeanx`
+
+The mean of the jerk of the body signal of the time domian accelerator measurement on the x axis.
+
+`timebodyaccjerkmeany`
+
+The mean of the jerk of the body signal of the time domian accelerator measurement on the y axis.
+
+`timebodyaccjerkmeanz`
+
+The mean of the jerk of the body signal of the time domian accelerator measurement on the z axis.
+
+`timebodyaccjerkstdx`
+
+The standard deviation of the jerk of the body signal of the time domian accelerator measurement on the x axis.
+
+`timebodyaccjerkstdy`
+
+The standard deviation of the jerk of the body signal of the time domian accelerator measurement on the y axis.
+
+`timebodyaccjerkstdz`
+
+The standard deviation of the jerk of the body signal of the time domian accelerator measurement on the z axis.
+
+`timebodygyromeanx`
+`timebodygyromeany`
+`timebodygyromeanz`
+`timebodygyrostdx`
+`timebodygyrostdy`
+`timebodygyrostdz`
+`timebodygyrojerkmeanx`
+`timebodygyrojerkmeany`
+`timebodygyrojerkmeanz`
+`timebodygyrojerkstdx`
+`timebodygyrojerkstdy`
+`timebodygyrojerkstdz`
+`timebodyaccmagmean`
+`timebodyaccmagstd`
+`timegravityaccmagmean`
+`timegravityaccmagstd`
+`timebodyaccjerkmagmean`
+`timebodyaccjerkmagstd`
+`timebodygyromagmean`
+`timebodygyromagstd`
+`timebodygyrojerkmagmean`
+`timebodygyrojerkmagstd`
+`freqbodyaccmeanx`
+`freqbodyaccmeany`
+`freqbodyaccmeanz`
+`freqbodyaccstdx`
+`freqbodyaccstdy`
+`freqbodyaccstdz`
+`freqbodyaccjerkmeanx`
+`freqbodyaccjerkmeany`
+`freqbodyaccjerkmeanz`
+`freqbodyaccjerkstdx`
+`freqbodyaccjerkstdy`
+`freqbodyaccjerkstdz`
+`freqbodygyromeanx`
+`freqbodygyromeany`
+`freqbodygyromeanz`
+`freqbodygyrostdx`
+`freqbodygyrostdy`
+`freqbodygyrostdz`
+`freqbodyaccmagmean`
+`freqbodyaccmagstd`
+`freqbodybodyaccjerkmagmean`
+`freqbodybodyaccjerkmagstd`
+`freqbodybodygyromagmean`
+`freqbodybodygyromagstd`
+`freqbodybodygyrojerkmagmean`
+`freqbodybodygyrojerkmagstd`
 
 ### Summary data set
 This presents the averages of all of the measures described above, grouped by subject and activity (i.e. 6 activity by 30 subjects or 180 rows). The columns names are those of the full data set prefixed by `average_`.
