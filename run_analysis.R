@@ -65,6 +65,7 @@ names(dataset) <- sub("\\(\\)", "", names(dataset))
 names(dataset) <- gsub("-", "", names(dataset))
 names(dataset) <- sub("^t", "time", names(dataset))
 names(dataset) <- sub("^f", "freq", names(dataset))
+names(dataset) <- tolower(names(dataset))
 
 # Construct call for summarizing averages
 call_text <- "summarize(.data = grouped_data"
