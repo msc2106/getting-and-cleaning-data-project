@@ -28,4 +28,4 @@ A factor variable representing the activity for which the observation was made. 
 The names of the other variables in the data set are composed of three or four elements. The first is the prefix `time` or `freq`, indicating whether the signal was collect on the time domain or frequency domain. The second part indicates the motion being measured. The third indicates whether the measure is `mean` or standard deviation (`std`). Some measurements are split between the x, y, and z axes, indicated with a suffix of `x`, `y`, or `z`.
 
 ### Summary data set
-This presents the averages of all of the measures described above, grouped by subject and activity (i.e. 6 activity by 30 subjects or 180 rows).
+This presents the averages of all of the measures described above, grouped by subject and activity (i.e. 6 activity by 30 subjects or 180 rows). The columns names are those of the full data set prefixed by `average_`.
