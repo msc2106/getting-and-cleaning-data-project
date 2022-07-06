@@ -14,12 +14,12 @@ if(!file.exists(datapath)) {
 library(dplyr)
 library(readr)
 
-# Load labels
+# Load labels: assumed to be in datapath
 activities_labels <- read_table(file.path(datapath,"activity_labels.txt"), col_names = FALSE)[[2]]
 activities_labels <- tolower(activities_labels)
 measurements_names <- read_table(file.path(datapath,"features.txt"), col_names = FALSE)[[2]]
 
-# Load data: assumed to be in data/ and its test/ and train/ subdirs
+# Load data: assumed to be in the test/ and train/ subdirs of datapath
 test_measurements <- read_table(file.path(datapath,"test/X_test.txt"), col_names = FALSE)
 train_measurements <- read_table(file.path(datapath,"train/X_train.txt"), col_names = FALSE)
 test_activities <- read_table(
