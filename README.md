@@ -15,3 +15,4 @@ The script run_analysis.R includes all code required to create two tidy datasets
 3. Labeling and cleaning the names of columns and the levels of the activity variable.
 4. Creating a tidy data set including only subject, activity, and the means and standard deviation values for each measurement.
 5. Creating a summary data set, grouped by subject and activity, containing the average of each column.
+6. Write a file averages.table containing the summary data set.
