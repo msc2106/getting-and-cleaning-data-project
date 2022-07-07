@@ -27,190 +27,268 @@ A factor variable representing the activity for which the observation was made. 
 
 `timebodyaccmeanx`
 
-The mean of the body signal of the time domain accelerator measurement on the x axis.
+The mean of the body signal of the time domain accelerator measurement on the x axis. A numerical value between -1 and 1.
 
 `timebodyaccmeany`
 
-The mean of the body signal of the time domain accelerator measurement on the y axis.
+The mean of the body signal of the time domain accelerator measurement on the y axis. A numerical value between -1 and 1.
 
 `timebodyaccmeanz`
 
-The mean of the body signal of the time domain accelerator measurement on the z axis.
+The mean of the body signal of the time domain accelerator measurement on the z axis. A numerical value between -1 and 1.
 
 `timebodyaccstdx`
 
-The standard deviation of the body signal of the time domain accelerator measurement on the x axis.
+The standard deviation of the body signal of the time domain accelerator measurement on the x axis. A numerical value between -1 and 1.
 
 `timebodyaccstdy`
 
-The standard deviation of the body signal of the time domain accelerator measurement on the y axis.
+The standard deviation of the body signal of the time domain accelerator measurement on the y axis. A numerical value between -1 and 1.
 
 `timebodyaccstdz`
 
-The standard deviation of the body signal of the time domain accelerator measurement on the z axis.
+The standard deviation of the body signal of the time domain accelerator measurement on the z axis. A numerical value between -1 and 1.
 
 `timegravityaccmeanx`
 
-The mean of the gravity signal of the time domain accelerator measurement on the x axis.
+The mean of the gravity signal of the time domain accelerator measurement on the x axis. A numerical value between -1 and 1.
 
 `timegravityaccmeany`
 
-The mean of the gravity signal of the time domain accelerator measurement on the y axis.
+The mean of the gravity signal of the time domain accelerator measurement on the y axis. A numerical value between -1 and 1.
 
 `timegravityaccmeanz`
 
-The mean of the gravity signal of the time domain accelerator measurement on the z axis.
+The mean of the gravity signal of the time domain accelerator measurement on the z axis. A numerical value between -1 and 1.
 
 `timegravityaccstdx`
 
-The standard deviation of the gravity signal of the time domain accelerator measurement on the x axis.
+The standard deviation of the gravity signal of the time domain accelerator measurement on the x axis. A numerical value between -1 and 1.
 
 `timegravityaccstdy`
 
-The standard deviation of the gravity signal of the time domain accelerator measurement on the y axis.
+The standard deviation of the gravity signal of the time domain accelerator measurement on the y axis. A numerical value between -1 and 1.
 
 `timegravityaccstdz`
 
-The standard deviation of the gravity signal of the time domain accelerator measurement on the z axis.
+The standard deviation of the gravity signal of the time domain accelerator measurement on the z axis. A numerical value between -1 and 1.
 
 `timebodyaccjerkmeanx`
 
-The mean of the jerk of the body signal of the time domain accelerator measurement on the x axis.
+The mean of the jerk of the body signal of the time domain accelerator measurement on the x axis. A numerical value between -1 and 1.
 
 `timebodyaccjerkmeany`
 
-The mean of the jerk of the body signal of the time domain accelerator measurement on the y axis.
+The mean of the jerk of the body signal of the time domain accelerator measurement on the y axis. A numerical value between -1 and 1.
 
 `timebodyaccjerkmeanz`
 
-The mean of the jerk of the body signal of the time domain accelerator measurement on the z axis.
+The mean of the jerk of the body signal of the time domain accelerator measurement on the z axis. A numerical value between -1 and 1.
 
 `timebodyaccjerkstdx`
 
-The standard deviation of the jerk of the body signal of the time domain accelerator measurement on the x axis.
+The standard deviation of the jerk of the body signal of the time domain accelerator measurement on the x axis. A numerical value between -1 and 1.
 
 `timebodyaccjerkstdy`
 
-The standard deviation of the jerk of the body signal of the time domain accelerator measurement on the y axis.
+The standard deviation of the jerk of the body signal of the time domain accelerator measurement on the y axis. A numerical value between -1 and 1.
 
 `timebodyaccjerkstdz`
 
-The standard deviation of the jerk of the body signal of the time domain accelerator measurement on the z axis.
+The standard deviation of the jerk of the body signal of the time domain accelerator measurement on the z axis. A numerical value between -1 and 1.
 
 `timebodygyromeanx`
 
-The mean of the time domain gyroscope measurement on the x axis.
+The mean of the time domain gyroscope measurement on the x axis. A numerical value between -1 and 1.
 
 `timebodygyromeany`
 
-The mean of the time domain gyroscope measurement on the y axis.
+The mean of the time domain gyroscope measurement on the y axis. A numerical value between -1 and 1.
 
 `timebodygyromeanz`
 
-The mean of the time domain gyroscope measurement on the z axis.
+The mean of the time domain gyroscope measurement on the z axis. A numerical value between -1 and 1.
 
 `timebodygyrostdx`
 
-The standard deviation of the time domain gyroscope measurement on the x axis.
+The standard deviation of the time domain gyroscope measurement on the x axis. A numerical value between -1 and 1.
 
 `timebodygyrostdy`
 
-The standard deviation of the time domain gyroscope measurement on the y axis.
+The standard deviation of the time domain gyroscope measurement on the y axis. A numerical value between -1 and 1.
 
 `timebodygyrostdz`
 
-The standard deviation of the time domain gyroscope measurement on the z axis.
+The standard deviation of the time domain gyroscope measurement on the z axis. A numerical value between -1 and 1.
 
 `timebodygyrojerkmeanx`
 
-The mean of the jerk of the time domain gyroscope measurement on the x axis.
+The mean of the jerk of the time domain gyroscope measurement on the x axis. A numerical value between -1 and 1.
 
 `timebodygyrojerkmeany`
 
-The mean of the jerk of the time domain gyroscope measurement on the y axis.
+The mean of the jerk of the time domain gyroscope measurement on the y axis. A numerical value between -1 and 1.
 
 `timebodygyrojerkmeanz`
 
-The mean of the jerk of the time domain gyroscope measurement on the z axis.
+The mean of the jerk of the time domain gyroscope measurement on the z axis. A numerical value between -1 and 1.
 
 `timebodygyrojerkstdx`
 
-The standard deviation of the jerk of the time domain gyroscope measurement on the x axis.
+The standard deviation of the jerk of the time domain gyroscope measurement on the x axis. A numerical value between -1 and 1.
 
 `timebodygyrojerkstdy`
 
-The standard deviation of the jerk of the time domain gyroscope measurement on the y axis.
+The standard deviation of the jerk of the time domain gyroscope measurement on the y axis. A numerical value between -1 and 1.
 
 `timebodygyrojerkstdz`
 
-The standard deviation of the jerk of the time domain gyroscope measurement on the z axis.
+The standard deviation of the jerk of the time domain gyroscope measurement on the z axis. A numerical value between -1 and 1.
 
 `timebodyaccmagmean`
 
-The mean of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement.
+The mean of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement. A numerical value between -1 and 1.
 
 `timebodyaccmagstd`
 
-The standard deviation of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement.
+The standard deviation of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement. A numerical value between -1 and 1.
 
 `timegravityaccmagmean`
 
-The mean of the time domain 3-dimensional magnitude of the gravity signal of the acceleration measurement.
+The mean of the time domain 3-dimensional magnitude of the gravity signal of the acceleration measurement. A numerical value between -1 and 1.
 
 `timegravityaccmagstd`
 
-The standard deviation of the time domain 3-dimensional magnitude of the gravity signal of the acceleration measurement.
+The standard deviation of the time domain 3-dimensional magnitude of the gravity signal of the acceleration measurement. A numerical value between -1 and 1.
 
 `timebodyaccjerkmagmean`
 
-The mean of the jerk of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement.
+The mean of the jerk of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement. A numerical value between -1 and 1.
 
 `timebodyaccjerkmagstd`
 
-The standard deviation of the jerk of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement.
+The standard deviation of the jerk of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement. A numerical value between -1 and 1.
 
 `timebodygyromagmean`
 
-The mean of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement.
+The mean of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement. A numerical value between -1 and 1.
 
 `timebodygyromagstd`
 
-The standard deviation of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement.
+The standard deviation of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement. A numerical value between -1 and 1.
 
 `timebodygyrojerkmagmean`
 
-The mean of the jerk of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement.
+The mean of the jerk of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement. A numerical value between -1 and 1.
 
 `timebodygyrojerkmagstd`
 
-The standard deviation of the jerk of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement.
+The standard deviation of the jerk of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement. A numerical value between -1 and 1.
 
 `freqbodyaccmeanx`
+
+The mean of the body signal of the frequency domain accelerator measurement on the x axis. A numerical value between -1 and 1.
+
 `freqbodyaccmeany`
+
+The mean of the body signal of the frequency domain accelerator measurement on the y axis. A numerical value between -1 and 1.
+
 `freqbodyaccmeanz`
+
+The mean of the body signal of the frequency domain accelerator measurement on the z axis. A numerical value between -1 and 1.
+
 `freqbodyaccstdx`
+
+The standard deviation of the body signal of the frequency domain accelerator measurement on the x axis. A numerical value between -1 and 1.
+
 `freqbodyaccstdy`
+
+The standard deviation of the body signal of the frequency domain accelerator measurement on the y axis. A numerical value between -1 and 1.
+
 `freqbodyaccstdz`
+
+The standard deviation of the body signal of the frequency domain accelerator measurement on the z axis. A numerical value between -1 and 1.
+
 `freqbodyaccjerkmeanx`
+
+The mean of the jerk of the body signal of the frequency domain accelerator measurement on the x axis. A numerical value between -1 and 1.
+
 `freqbodyaccjerkmeany`
+
+The mean of the jerk of the body signal of the frequency domain accelerator measurement on the y axis. A numerical value between -1 and 1.
+
 `freqbodyaccjerkmeanz`
+
+The mean of the jerk of the body signal of the frequency domain accelerator measurement on the z axis. A numerical value between -1 and 1.
+
 `freqbodyaccjerkstdx`
+
+The standard deviation of the jerk of the body signal of the frequency domain accelerator measurement on the x axis. A numerical value between -1 and 1.
+
 `freqbodyaccjerkstdy`
+
+The standard deviation of the jerk of the body signal of the frequency domain accelerator measurement on the y axis. A numerical value between -1 and 1.
+
 `freqbodyaccjerkstdz`
+
+The standard deviation of the jerk of the body signal of the frequency domain accelerator measurement on the z axis. A numerical value between -1 and 1.
+
 `freqbodygyromeanx`
+
+The mean of the body signal of the frequency domain gyroscope measurement on the x axis. A numerical value between -1 and 1.
+
 `freqbodygyromeany`
+
+The mean of the body signal of the frequency domain gyroscope measurement on the y axis. A numerical value between -1 and 1.
+
 `freqbodygyromeanz`
+
+The mean of the body signal of the frequency domain gyroscope measurement on the z axis. A numerical value between -1 and 1.
+
 `freqbodygyrostdx`
+
+The standard deviation of the body signal of the frequency domain gyroscope measurement on the x axis. A numerical value between -1 and 1.
+
 `freqbodygyrostdy`
+
+The standard deviation of the body signal of the frequency domain gyroscope measurement on the y axis. A numerical value between -1 and 1.
+
 `freqbodygyrostdz`
+
+The standard deviation of the body signal of the frequency domain gyroscope measurement on the z axis. A numerical value between -1 and 1.
+
 `freqbodyaccmagmean`
+
+The mean of the body signal of the frequency domain 3-dimensional magnitude of acceleration. A numerical value between -1 and 1.
+
 `freqbodyaccmagstd`
+
+The standard deviation of the body signal of the frequency domain 3-dimensional magnitude of acceleration. A numerical value between -1 and 1.
+
 `freqbodybodyaccjerkmagmean`
+
+The mean jerk of the body signal of the frequency domain 3-dimensional magnitude of acceleration. A numerical value between -1 and 1.
+
 `freqbodybodyaccjerkmagstd`
+
+The standard deviation of the jerk of the body signal of the frequency domain 3-dimensional magnitude of acceleration. A numerical value between -1 and 1.
+
 `freqbodybodygyromagmean`
+
+The mean of the body signal of the frequency domain 3-dimensional magnitude of the gyroscope measurement. A numerical value between -1 and 1.
+
 `freqbodybodygyromagstd`
+
+The standard deviation of the body signal of the frequency domain 3-dimensional magnitude of the gyroscope measurement. A numerical value between -1 and 1.
+
 `freqbodybodygyrojerkmagmean`
+
+The mean jerk of the body signal of the frequency domain 3-dimensional magnitude of the gyroscope measurement. A numerical value between -1 and 1.
+
 `freqbodybodygyrojerkmagstd`
+
+The standard deviation of the jerk of the body signal of the frequency domain 3-dimensional magnitude of the gyroscope measurement. A numerical value between -1 and 1.
+
 
 ### Summary data set
 This presents the averages of all of the measures described above, grouped by subject and activity (i.e. 6 activity by 30 subjects or 180 rows). The columns names are those of the full data set prefixed by `average_`.
