@@ -19,7 +19,7 @@ The `t` and `f` prefixes in the raw data set were expanded to `time` and `freq`.
 
 `subject`
 
-A factor represented a unique id for each participant in the study.
+A factor, from 1 to 30, representing a unique id for each of the participants in the study.
 
 `activity`
 
