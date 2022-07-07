@@ -67,20 +67,10 @@ names(dataset) <- sub("^t", "time", names(dataset))
 names(dataset) <- sub("^f", "freq", names(dataset))
 names(dataset) <- tolower(names(dataset))
 
-# Construct call for summarizing averages
-call_text <- "summarize(.data = grouped_data"
-cols_to_average <- names(dataset)[-(1:2)]
-for(s in cols_to_average) {
-    this_col <- paste("average", s, sep="_")
-    expression <- paste0("= mean(", s, ")")
-    call_text <- paste0(call_text, ", ", this_col, expression)
-}
-call_text <- paste0(call_text, ")")
-summarize_call <- str2lang(call_text)
-
 # Make averages tibble
-grouped_data <- group_by(dataset, subject, activity)
-averages <- eval(summarize_call)
+averages <- dataset %>%
+    group_by(subject, activity) %>%
+    summarize(across(.fns = mean, .names = "average_{.col}"))
 
 # Save the averages dataset
 write.table(averages, file = "averages.table", row.names = FALSE)
