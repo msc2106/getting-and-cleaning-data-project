@@ -73,4 +73,4 @@ averages <- dataset %>%
     summarize(across(.fns = mean, .names = "average_{.col}"))
 
 # Save the averages dataset
-write.table(averages, file = "averages.table", row.names = FALSE)
+write.table(averages, file = "averages.txt", row.names = FALSE)
