@@ -15,7 +15,7 @@ The researchers describe their data collection procedure as follows:
 
 ## Code book
 ### Main data set
-The `t` and `f` prefixes in the raw data set were expanded to `time` and `freq`. In addition, non-letter characters were removed and the namers were made all lower case. Otherwise, the abbreviations in the raw data set were preserved to keep the name lengths under control: `std` for standard deviation, `acc` for acceleration, and `mag` for magnitude.
+The `t` and `f` prefixes in the raw data set were expanded to `time` and `freq`. In addition, non-letter characters were removed and the names were made all lower case. Otherwise, the abbreviations in the raw data set were preserved to keep the name lengths under control: `std` for standard deviation, `acc` for acceleration, and `mag` for magnitude.
 
 `subject`
 
