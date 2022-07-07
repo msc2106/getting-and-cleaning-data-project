@@ -15,6 +15,8 @@ The researchers describe their data collection procedure as follows:
 
 ## Code book
 ### Main data set
+The `t` and `f` prefixes in the raw data set were expanded to `time` and `freq`. In addition, non-letter characters were removed and the namers were made all lower case. Otherwise, the abbreviations in the raw data set were preserved to keep the name lengths under control: `std` for standard deviation, `acc` for acceleration, and `mag` for magnitude.
+
 `subject`
 
 A factor represented a unique id for each participant in the study.
@@ -73,50 +75,116 @@ The standard deviation of the gravity signal of the time domain accelerator meas
 
 `timebodyaccjerkmeanx`
 
-The mean of the jerk of the body signal of the time domian accelerator measurement on the x axis.
+The mean of the jerk of the body signal of the time domain accelerator measurement on the x axis.
 
 `timebodyaccjerkmeany`
 
-The mean of the jerk of the body signal of the time domian accelerator measurement on the y axis.
+The mean of the jerk of the body signal of the time domain accelerator measurement on the y axis.
 
 `timebodyaccjerkmeanz`
 
-The mean of the jerk of the body signal of the time domian accelerator measurement on the z axis.
+The mean of the jerk of the body signal of the time domain accelerator measurement on the z axis.
 
 `timebodyaccjerkstdx`
 
-The standard deviation of the jerk of the body signal of the time domian accelerator measurement on the x axis.
+The standard deviation of the jerk of the body signal of the time domain accelerator measurement on the x axis.
 
 `timebodyaccjerkstdy`
 
-The standard deviation of the jerk of the body signal of the time domian accelerator measurement on the y axis.
+The standard deviation of the jerk of the body signal of the time domain accelerator measurement on the y axis.
 
 `timebodyaccjerkstdz`
 
-The standard deviation of the jerk of the body signal of the time domian accelerator measurement on the z axis.
+The standard deviation of the jerk of the body signal of the time domain accelerator measurement on the z axis.
 
 `timebodygyromeanx`
+
+The mean of the time domain gyroscope measurement on the x axis.
+
 `timebodygyromeany`
+
+The mean of the time domain gyroscope measurement on the y axis.
+
 `timebodygyromeanz`
+
+The mean of the time domain gyroscope measurement on the z axis.
+
 `timebodygyrostdx`
+
+The standard deviation of the time domain gyroscope measurement on the x axis.
+
 `timebodygyrostdy`
+
+The standard deviation of the time domain gyroscope measurement on the y axis.
+
 `timebodygyrostdz`
+
+The standard deviation of the time domain gyroscope measurement on the z axis.
+
 `timebodygyrojerkmeanx`
+
+The mean of the jerk of the time domain gyroscope measurement on the x axis.
+
 `timebodygyrojerkmeany`
+
+The mean of the jerk of the time domain gyroscope measurement on the y axis.
+
 `timebodygyrojerkmeanz`
+
+The mean of the jerk of the time domain gyroscope measurement on the z axis.
+
 `timebodygyrojerkstdx`
+
+The standard deviation of the jerk of the time domain gyroscope measurement on the x axis.
+
 `timebodygyrojerkstdy`
+
+The standard deviation of the jerk of the time domain gyroscope measurement on the y axis.
+
 `timebodygyrojerkstdz`
+
+The standard deviation of the jerk of the time domain gyroscope measurement on the z axis.
+
 `timebodyaccmagmean`
+
+The mean of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement.
+
 `timebodyaccmagstd`
+
+The standard deviation of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement.
+
 `timegravityaccmagmean`
+
+The mean of the time domain 3-dimensional magnitude of the gravity signal of the acceleration measurement.
+
 `timegravityaccmagstd`
+
+The standard deviation of the time domain 3-dimensional magnitude of the gravity signal of the acceleration measurement.
+
 `timebodyaccjerkmagmean`
+
+The mean of the jerk of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement.
+
 `timebodyaccjerkmagstd`
+
+The standard deviation of the jerk of the time domain 3-dimensional magnitude of the body signal of the acceleration measurement.
+
 `timebodygyromagmean`
+
+The mean of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement.
+
 `timebodygyromagstd`
+
+The standard deviation of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement.
+
 `timebodygyrojerkmagmean`
+
+The mean of the jerk of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement.
+
 `timebodygyrojerkmagstd`
+
+The standard deviation of the jerk of the time domain 3-dimensional magnitude of the body signal of the gyroscope measurement.
+
 `freqbodyaccmeanx`
 `freqbodyaccmeany`
 `freqbodyaccmeanz`
